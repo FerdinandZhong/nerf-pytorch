@@ -11,3 +11,4 @@ logs/*
 *_metrics/*
 *_logs/*
 logs*/*
+.DS_Store
