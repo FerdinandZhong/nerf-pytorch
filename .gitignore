@@ -7,3 +7,7 @@
 *.dae
 data/*
 logs/*
+*.zip
+*_metrics/*
+*_logs/*
+logs*/*

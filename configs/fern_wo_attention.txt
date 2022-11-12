@@ -1,5 +1,5 @@
 expname = fern_test
-basedir = ./logs
+basedir = ./logs_wo_attention
 datadir = ./data/nerf_llff_data/fern
 dataset_type = llff
 
@@ -14,8 +14,7 @@ netchunk = 16384
 use_viewdirs = True
 raw_noise_std = 1e0
 
-log_file = training.log
-tensorboard_path = training_metrics
+log_file = training_wo_attention.log
+tensorboard_path = training_wo_attention_metrics
 render_only
 render_test
-use_attention
