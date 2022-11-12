@@ -13,3 +13,25 @@ Performance comparison between original model and model_w_attention
 | attention model |   26.91  |        61.87       |
 
 ### Training Records
+
+#### original model
+
+* PSNR
+<img src="https://raw.githubusercontent.com/FerdinandZhong/nerf-pytorch/master/experiments_charts/original/training%20PSNR%20(steps).svg" width="75%">
+
+* loss
+<img src="https://raw.githubusercontent.com/FerdinandZhong/nerf-pytorch/master/experiments_charts/original/training%20loss%20(steps).svg" width="75%">
+
+* learning rate
+<img src="https://raw.githubusercontent.com/FerdinandZhong/nerf-pytorch/master/experiments_charts/original/training%20lr%20(steps).svg" width="75%">
+
+#### attention model
+
+* PSNR
+<img src="https://raw.githubusercontent.com/FerdinandZhong/nerf-pytorch/master/experiments_charts/attention/training%20PSNR%20(steps).svg" width="75%">
+
+* loss
+<img src="https://raw.githubusercontent.com/FerdinandZhong/nerf-pytorch/master/experiments_charts/attention/training%20loss%20(steps).svg" width="75%">
+
+* learning rate
+<img src="https://raw.githubusercontent.com/FerdinandZhong/nerf-pytorch/master/experiments_charts/attention/training%20lr%20(steps).svg" width="75%">
